@@ -30,6 +30,8 @@
         "array-element-newline": ["error", {"minItems": 5}],        
         "array-bracket-newline": ["error", {"minItems": 5}],
 
-        "react/react-in-jsx-scope": "off"
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-closing-bracket-location": ["error", "tag-aligned"],
+        "no-unused-vars": "off"
     }
 }
